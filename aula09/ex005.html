@@ -1,0 +1,62 @@
+<!--Usando comandos DOM-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primeiros passos com DOM</title>
+  <style>
+    body {
+      background: rgb(26, 81, 99);
+      color: white;
+      font: normal 18pt Arial;
+    }
+  </style>
+</head>
+<body>
+  <h1>Iniciando estudos com DOM</h1>
+  <p>Aqui vai o resultado</p>
+  <p>Aprendendo a usar <strong>DOM</strong em JavaScript></p>
+  <div id="msg">Clique em mim</div>
+  <!-- usado para testar getElementByName <div name='msg'>Clique em mim</div> -->
+
+
+  <script>
+    var corpo = window.document.body
+    var paragrafo1 = window.document.getElementsByTagName('p')[1] //o [0] seleciona o primeiro parágrafo, para selecionar o segundo use [1]
+    
+    // testando o innertext e innerHTML
+    
+    /* window.document.write('está escrito assim: ' + paragrafo1.innerText) //innerText é o texto que está dentro do parágrafo
+    corpo.style.background = 'green'
+    paragrafo1.style.color = 'blue'
+    document.write(paragrafo1.innerHTML)
+    window.alert(paragrafo1.innerHTML) // mostra com tags dentro do texto
+    window.alert(paragrafo1.innerText) //mostra somente o texto
+    window.document.write(window.document.URL)
+    */
+
+    // teste getElementById
+
+    /*
+    var d = window.document.getElementById('msg')
+    d.style.background = 'greenyellow'
+    // d.innerText = 'Estou aguardando...'
+    window.document.getElementById('msg').innerText = 'Olá!'
+    */
+
+    // testando getElementByName
+    
+    /*
+    var d = window.document.getElementsByClassName('msg')
+    d.innerText = 'Olá!'
+    */
+
+    // tentando o querySelector
+
+    var d = window.document.querySelector('div#msg')
+    d.style.color = 'yellow'
+  </script>
+</body>
+</html>
