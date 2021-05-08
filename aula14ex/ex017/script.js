@@ -12,6 +12,7 @@ function operacao(){
       let item = document.createElement('option')
       //criando o option de forma dinâmica
       item.text =  `${valor} x ${contador} = ${valor*contador}`
+      item.value = `tab${contador}`
       tab.appendChild(item)
       contador++
     }
