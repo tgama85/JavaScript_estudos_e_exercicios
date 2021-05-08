@@ -6,6 +6,8 @@ function operacao(){
   } else{
     let valor = Number(num.value)
     let contador = 1
+    //para limpar a tabuada
+    tab.innerHTML = ''
     while (contador <= 10){
       let item = document.createElement('option')
       //criando o option de forma dinâmica
