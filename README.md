@@ -22,7 +22,9 @@
    - Exercícios JavaScript (Parte 3)
  - Aula 13 – Repetições (Parte 1)
  - Aula 14 – Repetições (Parte 2)
-   - Exercícios JavaScript (Parte 4)...{continua!!}
+   - Exercícios JavaScript (Parte 4)
+   - Exercícios JavaScript (Parte 5)
+   - Exercícios JavaScript (Parte 6)
    
  
 ### Observação:
