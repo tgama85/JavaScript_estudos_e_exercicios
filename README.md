@@ -26,6 +26,10 @@
    - Exercícios JavaScript (Parte 5)
    - Exercícios JavaScript (Parte 6)
  - Aula 15 – Variáveis Compostas
+ - Aula 16 – Funções
+   - Exercícios JavaScript (Parte 7)
+   - Exercícios JavaScript (Parte 8)
+ - Aula 17 – Próximos Passos (Objetos)
    
  
 ### Observação:
