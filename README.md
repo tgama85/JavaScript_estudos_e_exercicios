@@ -32,9 +32,6 @@
  - Aula 17 – Próximos Passos (Objetos)
    
  
-### Observação:
-Em curso...
-
 #### Mostra de página do exercício da Aula 12
 
 ![](https://i.imgur.com/Cy0J412.png)
