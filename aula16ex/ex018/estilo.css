@@ -16,6 +16,7 @@ section{
 }
 select#listatxt{
   width: 150px;
+  font: normal 12pt Arial;
 }
 footer{
   color: white;
